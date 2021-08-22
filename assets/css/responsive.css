@@ -1,0 +1,144 @@
+/* PC */
+
+@media (min-width:77.5em) {}
+
+
+/* Tablet and Mobile */
+
+@media (max-width:77.4375em) {
+    /* common */
+    .body-content {
+        height: auto;
+    }
+    /* header */
+    #logo {
+        width: 60%;
+    }
+    #nav {
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+    #nav>ul {
+        display: block;
+    }
+    #nav>ul>li {
+        padding: 30px;
+        display: block;
+    }
+    #nav .sub-nav {
+        margin-left: 50%;
+        transform: translateX(-84%);
+    }
+    #menu-btn {
+        display: block;
+    }
+    /* about */
+    .about-content {
+        width: 100%;
+    }
+    .about-img img {
+        width: 50%;
+    }
+    /* service */
+    .service-content .description {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .service-content .icon {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    /* team */
+    #team-section .team-body {
+        display: block;
+    }
+    .team-content {
+        width: 40%;
+        display: inline-block;
+        margin: 30px;
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width:46.25em) and (max-width:77.4375em) {
+    /* team */
+    .team-content {
+        width: 40%;
+    }
+    /* footer */
+    .footer-content {
+        padding: 72px 24px;
+    }
+    .footer-content .footer-items:nth-child(1) {
+        width: 30%;
+    }
+    .footer-content .footer-items:nth-child(2) {
+        width: 40%;
+    }
+    .footer-content .footer-items:nth-child(3) {
+        width: 30%;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width:46.1875em) {
+    /* header */
+    #logo {
+        width: 80%;
+        padding: 10px 0 0 10px;
+    }
+    #logo a {
+        font-size: 54px;
+    }
+    #menu-btn {
+        font-size: 48px;
+        padding: 15px 10px 0 0;
+    }
+    /* about */
+    .about-content {
+        padding: 0 32px;
+    }
+    /* service */
+    .service-content {
+        padding: 24px 40px;
+    }
+    /* client */
+    #client-section .client-body {
+        display: block;
+    }
+    .client-content {
+        width: 100%;
+        margin: auto;
+        display: inline-block;
+        padding: 20px 40px;
+    }
+    /* team */
+    .team-content {
+        width: 80%;
+    }
+    /* contact */
+    .contact-content {
+        display: block;
+    }
+    .contact-items {
+        width: 100%;
+        margin-top: 20px;
+    }
+    /* footer */
+    footer {
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .footer-content {
+        padding: 72px 24px;
+    }
+    .footer-content .footer-items {
+        width: 100%;
+        height: auto;
+    }
+}
